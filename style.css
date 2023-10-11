@@ -1,0 +1,67 @@
+/*Colors and Fonts*/
+body{
+background-color:rgb(235, 235, 235, 1.0);
+color:#262F2F;
+font-family: 'Raleway', sans-serif;
+font-size: 16px;
+}
+h1, h2{font-family: 'Roboto', sans-serif;}
+h1{
+	color:#090B31;
+	font-size: 34px;
+	font-weight: 900;
+
+}
+h2{
+	color: rgba(9,11,49,0.7);
+	font-size: 26px;
+	font-weight: 700;}
+a{font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+
+}
+	
+a:hover{
+	color:#072A03;
+	text-decoration: none;
+}
+
+/* custom design with class*/
+.container{
+	width: 800xp;
+	margin: 30px 60px;
+}
+.card-white{
+	background: ghostwhite;
+	padding: 40px;
+	text-align: center;
+	box-shadow: 0px 15px 40px rgba(0,0,0,0.2);
+    border-radius: 10px;
+    margin: 30px;
+
+}
+.list-inline{
+    list-style: none;
+    padding-left: 0px;
+
+
+}
+.list-inline li{
+   display: inline-block;
+   padding: 5px;
+}
+.list-inline i{
+    font-size: 60px;
+}
+
+}
+.image_circle{ 
+	border-radius: 60%;
+}
+.button{
+	background-color: #3F784C;
+	color: ghostwhite;
+	padding: 10px;
+	margin: 30px;
+	border-radius: 10px;
+}
